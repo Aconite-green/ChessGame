@@ -1,2 +1,15 @@
 # Sw_TermProject
-Made chess game using graphic library
+
+* ### 이번 프로젝트에서는 C++을 사용하여 2인용 체스를 구현했습니다. 게임은 C++의 객체 지향 방식을 염두에 두고 C++로 설계되었습니다.
+
+<br>
+
+* ### 기본 클래스, 즉 **Gamepiece** 클래스에는 2개의 순수 가상 함수가 있습니다. 이 함수들은 기본 클래스를 확장하는 사람이 재정의해야 하기 때문에 코드 상에서 파생클래스들(ex 각 Pieces)코드로 반영된 모습을 보실 수 있습니다.
+* ###  Getpiece와 AreSquareLegal은 기본 클래스의 2가지 가상 함수입니다.
+
+
+![캡처](/src/texture/class_diagram.jpg)
+
+
+ 
+
