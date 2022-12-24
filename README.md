@@ -4,8 +4,9 @@
 
 <br>
 
-![캡처](/src/texture/start_chessgame.JPG)
-
+<p align="center">
+  <img src="src/texture/start_chessgame.JPG" alt="factorio thumbnail"/>
+</p> 
 
 <br>
 
@@ -17,8 +18,9 @@
 
 ## Class Diagram
 
-![캡처](/src/texture/class_diagram.jpg)
-
+<p align="center">
+  <img src="src/texture/class_diagram.jpg" alt="factorio thumbnail"/>
+</p>
 
 Class|Description
 :--|:--
@@ -28,17 +30,11 @@ Class|Description
 **Each Pieces**(Knight, Bishop, Rook, Queen, King, Pawn)|전체 자신의 이름 값과, 그에 해당하는 이동 결과 값을 반환함<br><br>__virtual char* GetPiece()__<br>: return the piece name<br>__bool AreSquaresLegal(생략)__<br>: Valid moves for each piece are checked and the resulting value is returned.
 
 
-
-
-
-
-
-
-
-
 ## In Game
 
-![캡처](/src/texture/play_chessgame.JPG)
+<p align="center">
+  <img src="src/texture/play_chessgame.JPG" alt="factorio thumbnail"/>
+</p>
 
 ## 각 기능별 알고리즘 설명
 ### 8 * 8 각 Piece 클래스를 담을 수 있는 배열을 사용하여 가상의 체스 판(Mainboard 배열 생성)을 만들고 함수들을 접근 시켜 게임을 진행하였다.
